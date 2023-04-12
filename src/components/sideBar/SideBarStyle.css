@@ -1,0 +1,10 @@
+.side-bar {
+  background-color: var(--sidebar-bg);
+  width: 18%;
+  height: 100vh;
+  padding-left: 25px;
+}
+
+.side-bar .side-bar-logo {
+  width: 110px;
+}
