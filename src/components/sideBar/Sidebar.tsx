@@ -1,15 +1,22 @@
 import React from 'react'
 import './SideBarStyle.css'
 import logo from '../../assets/logo.png'
-import MenuItem from './components/MenuItem'
-import LibraryMusicIcon from '@mui/icons-material/LibraryMusicOutlined'
+import { fixMenuItems, scrollMenuItems } from './assets/menuItem'
+import MenuComponent from './components/MenuComponent'
 
 export default function Sidebar (): JSX.Element {
   return (
     <nav className='side-bar'>
       <header>
         <img className='side-bar-logo' src={logo} alt="" />
-        <MenuItem icon={<LibraryMusicIcon className='menu-item-icon'/>} lable='Thư viện'/>
+        {
+          <MenuComponent items={fixMenuItems} />
+        }
+
+        <div className='divider-solid'></div>
+        {
+          <MenuComponent items={scrollMenuItems} />
+        }
       </header>
     </nav>
   )
