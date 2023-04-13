@@ -1,0 +1,12 @@
+.playbar {
+  height: 90px;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid var(--border-player);
+  background-color: var(--player-bg);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}

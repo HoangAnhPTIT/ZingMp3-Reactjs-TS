@@ -11,7 +11,7 @@ export default function MenuComponent (prop: MenuItemTypes): JSX.Element {
     <div>
       {
         prop.items.map((item, key) => {
-          return <MenuItem key={key} Icon={item.Icon} lable={item.lable} isActive={item.isActive} hasPlayIcon={item.hasPlayIcon} />
+          return <MenuItem key={key} Icon={item.Icon} label={item.label} isActive={item.isActive} hasPlayIcon={item.hasPlayIcon} classLabel={item.classLabel}/>
         })
       }
     </div>

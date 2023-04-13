@@ -1,6 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --sidebar-bg: rgba(0, 0, 0, 0.05);
+  --header-bg: #fff;
   --navigation-text: #32323d;
   --text-item-hover: #8d22c3;
   --alpha-bg: rgba(0, 0, 0, 0.05);

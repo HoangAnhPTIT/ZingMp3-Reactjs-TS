@@ -1,6 +1,7 @@
 export interface MenuItemType {
   Icon: JSX.Element
-  lable: string
+  label: string
   isActive?: boolean
   hasPlayIcon?: boolean
+  classLabel?: string
 }

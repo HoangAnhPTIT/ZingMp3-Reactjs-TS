@@ -1,7 +1,11 @@
 .side-bar {
   background-color: var(--sidebar-bg);
   max-width: 240px;
-  height: 100vh;
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .side-bar .side-bar-logo {

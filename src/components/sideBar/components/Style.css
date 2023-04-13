@@ -1,0 +1,117 @@
+.menu-item {
+  max-height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--navigation-text);
+  padding: 10px 25px;
+  border-left: 3px solid transparent;
+
+}
+
+.menu-item:hover,
+.menu-item.active {
+  color: var(--text-item-hover);
+}
+
+.menu-item.active {
+  border-left: 3px solid var(--text-item-hover);
+  background-color: var(--alpha-bg);
+
+}
+
+.menu-item-main {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item-lable {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 700;
+
+}
+
+.menu-item-lable-normal {
+  color: inherit;
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.menu-item-icon {
+  font-size: 18px !important;
+}
+
+.menu-item .menu-item-play-icon {
+  outline: unset;
+  border: unset;
+  background-color: transparent;
+  display: none;
+  color: var(--text-item-hover);
+  cursor: pointer;
+}
+
+.sidebar-vip-banner {
+  background-image: linear-gradient(117deg, #5a4be7, #c86dd7 102%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.sidebar-vip-banner .sidebar-vip-banner-label {
+  width: 90%;
+  word-break: break-word;
+  line-height: 1.67;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.sidebar-vip-banner .sidebar-vip-banner-button {
+  border-radius: 20px;
+  padding: 6px 39px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  outline: unset;
+  border: unset;
+  background-color: #ffdb00;
+  cursor: pointer;
+}
+
+.sidebar-vip-banner .sidebar-vip-banner-button:hover {
+  border: #ffdb00;
+  filter: brightness(.9);
+}
+
+.sidebar-library-label {
+  margin-left: 28px;
+  margin-top: 26px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.playlist-creator {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--border-primary);
+  padding-left: 28px;
+}
+
+.playlist-creator .playlist-creator-add-icon {
+  color: var(--text-primary);
+  margin-right: 10px;
+}
+
+
+.playlist-creator .playlist-creator-title {
+  font-size: 15px;
+  font-weight: 500;
+}
