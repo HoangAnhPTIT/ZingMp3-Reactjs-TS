@@ -1,6 +1,6 @@
 .side-bar {
   background-color: var(--sidebar-bg);
-  max-width: 240px;
+  min-width: 240px;
   height: calc(100vh - 90px);
   display: flex;
   flex-direction: column;

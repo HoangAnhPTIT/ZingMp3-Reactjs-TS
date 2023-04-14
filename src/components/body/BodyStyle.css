@@ -1,0 +1,5 @@
+.body-container {
+  width: calc(100vw - 240px);
+  padding: 0 60px;
+
+}

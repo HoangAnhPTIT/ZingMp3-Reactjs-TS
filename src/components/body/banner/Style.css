@@ -1,0 +1,54 @@
+.banner {
+  display: flex;
+  gap: 28px;
+  margin-top: 36px;
+  position: relative;
+}
+
+.banner .banner-item {
+  cursor: pointer;
+}
+
+.banner-item .banner-item-img {
+  height: auto;
+  width: 100%;
+  border-radius: 6px;
+  scroll-behavior: smooth;
+  transition: .7s ease-in-out;
+
+}
+
+.banner .banner-controller {
+  display: none;
+}
+
+.banner .banner-icon-container {
+  position: absolute;
+  background-color: hsla(0, 0%, 100%, .15);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  top: calc(50% - 30px);
+  cursor: pointer;
+}
+
+.banner .banner-icon-container:hover {
+  filter: brightness(0.9);
+}
+
+.banner .banner-icon-container.banner-icon-back {
+  left: 10px;
+}
+
+.banner .banner-icon-container.banner-icon-forward {
+  right: 10px;
+}
+
+.banner .controller-icon {
+  font-size: 25px;
+  color: white
+}

@@ -1,8 +1,6 @@
 .body-header{
-  width: calc(100vw - 240px);
   height: 70px;
   background-color: var(--header-bg);
-  padding: 0 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
